@@ -1,14 +1,14 @@
-# ico-creation
+<h1> # ico-creation </h1>
 
 • Create a Git repository & share it with
-the teacher (2 pts) - DONE 
+the teacher (2 pts) - DONE <br> 
 • Install Truffle & create a truffle project (2
-pts) - DONE 
+pts) - DONE <br> 
 • Create an ERC20 token contract (2 pts) - DONE 
 • Create a migration to deploy your
-contract(s) (2 pts) - DONE 
-• Create testing routines (2 pts) - DONE 
-• Implement all ERC20 functions (4 pts) - DONE 
-• Implement customer white listing (2 pts)
-• Implement multi level distribution (2 pts)
-• Create a token bonding curve (2 pts)
+contract(s) (2 pts) - DONE <br> 
+• Create testing routines (2 pts) - DONE <br> 
+• Implement all ERC20 functions (4 pts) - DONE <br> 
+• Implement customer white listing (2 pts) <br> 
+• Implement multi level distribution (2 pts )<br> 
+• Create a token bonding curve (2 pts)<br> 
