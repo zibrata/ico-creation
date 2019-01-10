@@ -2,7 +2,7 @@ pragma solidity >=0.4.21 <0.6.0;
 
 import "./IERC20.sol";
 
-contract StratchToken is IERC20 {
+contract ScratchToken is IERC20 {
     address public owner;
     string public _name; 
     
