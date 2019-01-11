@@ -108,15 +108,8 @@ contract ScratchToken is ERC20 {
      * @param spender The address which will spend the funds.
      * @param owner The amount of tokens to increase the allowance by.
      */
-    function Allowance(address owner, address spender) public returns (uint256 remaining) {
-        remaining = 1; 
-        while(approve(spender,remaining+1)) {
-            remaining += 1; 
-        }
-        return remaining; 
+    function allowance(address owner, address spender) public view returns (uint256 remaining) {
+        return _allowed[owner][spender];
     }
 
 }
-
-
-
