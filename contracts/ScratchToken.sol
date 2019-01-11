@@ -17,7 +17,6 @@ contract ScratchToken is ERC20 {
         _balances[_owner] = 10;
     }
 
-
     /**
     * @dev Returns the name of the token 
     */
@@ -111,5 +110,4 @@ contract ScratchToken is ERC20 {
     function allowance(address owner, address spender) public view returns (uint256 remaining) {
         return _allowed[owner][spender];
     }
-
 }
