@@ -1,5 +1,7 @@
 <h1> # ico-creation </h1>
 
+<h2>Prerequisites</h2>
+<p>• You'll need to <code>npm install chai</code> to be able to do a <code>truffle test</code>.</p>
 • Create a Git repository & share it with
 the teacher (2 pts) - DONE <br> 
 • Install Truffle & create a truffle project (2
