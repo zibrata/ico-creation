@@ -29,7 +29,7 @@ contract ScratchToken is ERC20 {
     /**
     * @dev Returns the symbol of the token
     */
-    function symbole() public view returns (string memory ) {
+    function symbol() public view returns (string memory ) {
         return _symbol;
     }
 
