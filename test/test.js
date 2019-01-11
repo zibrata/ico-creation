@@ -10,4 +10,9 @@ contract('ScratchToken', function ([_, _owner]) {
         (await this.token.name()).should.be.equals("Sapphire");
       });
     });
-})
+    describe('symbol', function () {
+      it('returns the symbol of tokens', async function() {
+      	(await this.token.symbol()).should.be.equals("SPR");
+      });
+  	});
+});
